@@ -1,0 +1,77 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,input,textarea,p,th,td {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color: #303133;
+}
+.el-header{
+    padding: 0 210px;
+}
+body{
+    background-color: #e3e3e3;
+    min-width:1800px;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+img {
+    border:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+    font-style:normal;
+    font-weight:normal;
+}
+ol,ul {
+    list-style:none;
+}
+th {
+    text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-size:100%;
+    font-weight:normal;
+}
+a {
+    text-decoration: none;
+    color: #303133;
+}
+a:hover {
+    color: #F56C6C;
+}
+.info{
+    color: #909399;
+}
+.danger{
+    color: #F56C6C;
+}
+.masonry{
+    column-count: 3; 
+    column-gap: 0;
+    
+}
+.item{
+    margin-bottom: 15px;
+    width: 96%;
+    break-inside: avoid; 
+    box-sizing: border-box; 
+    border-radius: 4px;
+    border: 1px solid #ebeef5;
+    background-color: #fff;
+    overflow: hidden;
+    color: #303133;
+    -webkit-transition: .3s;
+    transition: .3s;
+    padding: 5px;
+    
+}
+.span-info{
+    padding: 12px 12px 12px 26px;
+}
+.span-info span{
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    white-space: nowrap;
+}
